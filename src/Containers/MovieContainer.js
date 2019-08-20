@@ -6,7 +6,7 @@ class MovieContainer extends React.Component{
 
   state = {
     searchInput: '',
-    reviewInput: ''
+    reviewInput: '' 
   }
 
   render(){
@@ -17,7 +17,7 @@ class MovieContainer extends React.Component{
         <h2>{this.props.title}</h2>
         {
           this.props.movies.filter((movie) => movie.title.toLowerCase().includes(this.state.searchInput.toLowerCase()))
-          .map(movie => <MovieCard movie={movie} handleClick={() => this.props.selectMovie(movie)}/>)
+          .map(movie => <MovieCard movie={movie} handleClick={() => this.props.selectMovie(movie)} handleChange={(event) => this.props.addReview(event)} handleUpdate={() => this.props.updateReview(movie)} />)
       }
       </div>
 

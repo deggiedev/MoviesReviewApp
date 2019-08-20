@@ -1,19 +1,12 @@
 import React from 'react'
 
-
-
-const Review = () => {
+const Review = (props) => {
 
     return(
-      <div>
-      <input type="textarea"/>
+      <div>       
+          <p>{props.review}</p>
       </div>
     )
   }
-
-
-
-
-
 
 export default Review

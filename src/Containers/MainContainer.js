@@ -15,12 +15,36 @@ state = {
   movies: [],
   selectedMovieIds: [],
   filterChoice: "None",
-  sortChoice: ""
+  sortChoice: "",
+  reviewInput: ""
 }
 
 componentDidMount(){
   getMovies()
   .then(movies => this.setState({movies}))
+  
+}
+
+updateReview = (movieObj) => {
+    fetch(`http://localhost:3000/movies/${movieObj.id}`, {
+      method: 'PATCH',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({id: movieObj.id,
+        title: movieObj.title,
+        genre: movieObj.genre,
+        plot: movieObj.plot,
+        poster: movieObj.poster,
+        year: movieObj.year,
+        review: [this.state.reviewInput].concat(movieObj.review)}
+      )
+    })
+    getMovies()
+    .then(movies => this.setState({movies}))
+    
+}
+
+addReview = event => {
+  this.setState({reviewInput: event.target.value})
 }
 
 selectMovie = movie => {
@@ -88,7 +112,7 @@ render(){
     <MovieContainer movies={this.getSelectedMovie()} selectMovie={this.removeMovie} title={"Favourite Movies"}/>
     </div>
     <div className="col-8">
-    <MovieContainer movies={sortedMovies} selectMovie={this.selectMovie} title={"Movies"}/>
+    <MovieContainer movies={sortedMovies} selectMovie={this.selectMovie} title={"Movies"} addReview={this.addReview} updateReview={this.updateReview} />
     </div>
     </div>
     </div>

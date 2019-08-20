@@ -1,168 +1,191 @@
-
 {
-    "movies": [
-      { "id": 1,
-        "title":"The Shawshank Redemption",
-        "genre":"Drama",
-        "plot":"Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-        "poster":"https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-        "year": 1994,
-        "review": []
-
-      },
-      { "id": 2,
-            "title":"The Godfather",
-            "genre":"Crime",
-            "plot":"The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-            "poster":"https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-            "year": 1972
-      },
-        { "id": 3,
-              "title":"The Dark Knight",
-              "genre":"Thriller",
-              "plot":"When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-              "poster":"https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
-              "year": 2008
-        },
-          { "id": 4,
-                "title":"The Godfather: Part II",
-                "genre":"Crime",
-                "plot":"This program profiles writers of the 20s, 30s, and 40s, known as the Pulp Fiction-era. These writers created the iconic characters who live on today in our collective hearts and ...",
-                "poster":"https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-                "year": 1974
-          },
-          { "id": 5,
-                "title":"Pulp Fiction",
-                "genre":"Drama",
-                "plot":"This program profiles writers of the 20s, 30s, and 40s, known as the Pulp Fiction-era. These writers created the iconic characters who live on today in our collective hearts and ...",
-                "poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2MjAwMjYxOV5BMl5BanBnXkFtZTgwODIxNzg4NjE@._V1_SX300.jpg",
-                "year": 1994
-          },
-              { "id": 6,
-                    "title":"Schindler's List",
-                    "genre":"Drama",
-                    "plot":"In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis",
-                    "poster":"https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-                    "year": 1993
-              },
-                { "id": 7,
-                      "title":"The Lord of the Rings: The Return of the King",
-                      "genre":"Adventure",
-                      "plot":"Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-                      "poster":"https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-                      "year": 2003
-                },
-                  { "id": 8,
-                        "title":"12 Angry Men",
-                        "genre":"Drama",
-                        "plot":"A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
-                        "poster":"https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
-                        "year": 1957
-                  },
-
-                    { "id": 9,
-                          "title":"The Good, the Bad and the Ugly",
-                          "genre":"Western",
-                          "plot":"A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
-                          "poster":"https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SX300.jpg",
-                          "year": 1966
-                    },
-
-                      { "id": 10,
-                            "title":"Forrest Gump",
-                            "genre":"Drama",
-                            "plot":"The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.",
-                            "poster":"https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-                            "year": 1994
-                      },
-                        { "id": 11,
-                              "title":"Inception",
-                              "genre":"Thriller",
-                              "plot":"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
-                              "poster":"https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
-                              "year": 2010
-                        },
-                          { "id": 12,
-                                "title":"The Lord of the Rings: The Fellowship of the Ring",
-                                "genre":"Drama",
-                                "plot":"A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-                                "poster":"https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
-                                "year": 2001
-                          },
-                            { "id": 13,
-                                  "title":"Fight Club",
-                                  "genre":"Drama",
-                                  "plot":"An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
-                                  "poster":"https://m.media-amazon.com/images/M/MV5BMjJmYTNkNmItYjYyZC00MGUxLWJhNWMtZDY4Nzc1MDAwMzU5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-                                  "year": 1999
-                            },
-                              { "id": 14,
-                                    "title":"Dangal",
-                                    "genre":"Action",
-                                    "plot":"The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.",
-                                    "poster":"https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SX300.jpg",
-                                    "year": 2016
-                              },
-                                { "id": 15,
-                                      "title":"Star Wars: Episode V - The Empire Strikes Back",
-                                      "genre":"Action",
-                                      "plot":"After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
-                                      "poster":"https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-                                      "year": 1980
-                                },
-                                { "id": 16,
-                                      "title":"Star Wars: Episode IV - A New Hope",
-                                      "genre":"Action",
-                                      "plot":"Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
-                                      "poster":"https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-                                      "year": 1977
-                                },
-                                  { "id": 17,
-                                        "title":"The Matrix",
-                                        "genre":"Action",
-                                        "plot":"A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-                                        "poster":"https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-                                        "year": 1999
-                                  },
-                                    { "id": 18,
-                                          "title":"Goodfellas",
-                                          "genre":"Crime",
-                                          "plot":"The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
-                                          "poster":"https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-                                          "year": 1990
-                                    },
-                                      { "id": 19,
-                                            "title":"One Flew Over the Cuckoo's Nest",
-                                            "genre":"Drama",
-                                            "plot":"A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients.",
-                                            "poster":"https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-                                            "year": 1975
-
-                                      },
-                                        { "id": 20,
-                                              "title":"City of God",
-                                              "genre":"Crime",
-                                              "plot":"In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
-                                              "poster":"https://m.media-amazon.com/images/M/MV5BMGU5OWEwZDItNmNkMC00NzZmLTk1YTctNzVhZTJjM2NlZTVmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-                                              "year": 2002
-                                        },
-                                          { "id": 21,
-                                                "title":"The Lord of the Rings: The Two Towers",
-                                                "genre":"Drama",
-                                                "plot":"While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-                                                "poster":"https://m.media-amazon.com/images/M/MV5BNGE5MzIyNTAtNWFlMC00NDA2LWJiMjItMjc4Yjg1OWM5NzhhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-                                                "year": 2002
-
-                                          },
-                                                { "id": 22,
-                                                      "title":"The Lord of the Rings: The Two Towers",
-                                                      "genre":"Drama",
-                                                      "plot":"While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-                                                      "poster":"https://m.media-amazon.com/images/M/MV5BNGE5MzIyNTAtNWFlMC00NDA2LWJiMjItMjc4Yjg1OWM5NzhhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-                                                      "year": 2002
-
-                                                }
-
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "year": 1994,
+      "review": [
+        "not great",
+        "Good",
+        "No Good",
+        "Very Amazing",
+        "Amazing",
+        "Fantastic",
+        "Good",
+        "Very Very Good!",
+        "great movie!"
       ]
-
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 1972
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "genre": "Thriller",
+      "plot": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+      "year": 2008
+    },
+    {
+      "id": 4,
+      "title": "The Godfather: Part II",
+      "genre": "Crime",
+      "plot": "This program profiles writers of the 20s, 30s, and 40s, known as the Pulp Fiction-era. These writers created the iconic characters who live on today in our collective hearts and ...",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 1974
+    },
+    {
+      "id": 5,
+      "title": "Pulp Fiction",
+      "genre": "Drama",
+      "plot": "This program profiles writers of the 20s, 30s, and 40s, known as the Pulp Fiction-era. These writers created the iconic characters who live on today in our collective hearts and ...",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2MjAwMjYxOV5BMl5BanBnXkFtZTgwODIxNzg4NjE@._V1_SX300.jpg",
+      "year": 1994
+    },
+    {
+      "id": 6,
+      "title": "Schindler's List",
+      "genre": "Drama",
+      "plot": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "year": 1993
+    },
+    {
+      "id": 7,
+      "title": "The Lord of the Rings: The Return of the King",
+      "genre": "Adventure",
+      "plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 2003
+    },
+    {
+      "id": 8,
+      "title": "12 Angry Men",
+      "genre": "Drama",
+      "plot": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+      "year": 1957
+    },
+    {
+      "id": 9,
+      "title": "The Good, the Bad and the Ugly",
+      "genre": "Western",
+      "plot": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_SX300.jpg",
+      "year": 1966
+    },
+    {
+      "id": 10,
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "plot": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "year": 1994
+    },
+    {
+      "id": 11,
+      "title": "Inception",
+      "genre": "Thriller",
+      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg",
+      "year": 2010
+    },
+    {
+      "id": 12,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "Drama",
+      "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+      "year": 2001
+    },
+    {
+      "id": 13,
+      "title": "Fight Club",
+      "genre": "Drama",
+      "plot": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjJmYTNkNmItYjYyZC00MGUxLWJhNWMtZDY4Nzc1MDAwMzU5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 1999
+    },
+    {
+      "id": 14,
+      "title": "Dangal",
+      "genre": "Action",
+      "plot": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_SX300.jpg",
+      "year": 2016
+    },
+    {
+      "id": 15,
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "genre": "Action",
+      "plot": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 1980
+    },
+    {
+      "id": 16,
+      "title": "Star Wars: Episode IV - A New Hope",
+      "genre": "Action",
+      "plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 1977
+    },
+    {
+      "id": 17,
+      "title": "The Matrix",
+      "genre": "Action",
+      "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "year": 1999
+    },
+    {
+      "id": 18,
+      "title": "Goodfellas",
+      "genre": "Crime",
+      "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 1990
+    },
+    {
+      "id": 19,
+      "title": "One Flew Over the Cuckoo's Nest",
+      "genre": "Drama",
+      "plot": "A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "year": 1975
+    },
+    {
+      "id": 20,
+      "title": "City of God",
+      "genre": "Crime",
+      "plot": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGU5OWEwZDItNmNkMC00NzZmLTk1YTctNzVhZTJjM2NlZTVmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+      "year": 2002
+    },
+    {
+      "id": 21,
+      "title": "The Lord of the Rings: The Two Towers",
+      "genre": "Drama",
+      "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGE5MzIyNTAtNWFlMC00NDA2LWJiMjItMjc4Yjg1OWM5NzhhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 2002
+    },
+    {
+      "id": 22,
+      "title": "The Lord of the Rings: The Two Towers",
+      "genre": "Drama",
+      "plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGE5MzIyNTAtNWFlMC00NDA2LWJiMjItMjc4Yjg1OWM5NzhhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "year": 2002
     }
+  ]
+}

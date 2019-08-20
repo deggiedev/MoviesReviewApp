@@ -1,25 +1,27 @@
 import React from 'react'
 import Review from './Review'
-const MovieCard = (props) => {
-const { movie } = props;
 
-    return(
-      <div>
-        <div className="card">
-          <div className="card-body">
-          <h4 className="card-title">{movie.title} ({movie.year})</h4>
-          <div><img src={movie.poster}></img></div>
-          <h5 className="card-text">{movie.genre} </h5>
-          <p className="card-text">{movie.plot}</p>
-          <p className="card-text">Review: {movie.review}</p>
-          <button className="button" onClick={props.handleClick}>Add to Favourites</button>
+class MovieCard extends React.Component{
 
-          <button className="button" onClick={()=> props.addReview}>Add Review</button>
+  render(){
+      return(
+        <div>
+          <div className="card">
+            <div className="card-body">
+            <h4 className="card-title">{this.props.movie.title} ({this.props.movie.year})</h4>
+            <div><img alt={""} src={this.props.movie.poster}></img></div>
+            <h5 className="card-text">{this.props.movie.genre} </h5>
+            <p className="card-text">{this.props.movie.plot}</p>
+            <p>Reviews: <Review review={this.props.movie.review}/></p>
+            <button className="button" onClick={this.props.handleClick}>Add to Favourites</button><br></br>
+            <button className="button" onClick={this.props.handleUpdate}  >Add Review</button>
+            <input onChange={this.props.handleChange} />
+            </div>
           </div>
-        </div>
 
-      </div>
-    )
+        </div>
+        )
+      }
   }
 
 
