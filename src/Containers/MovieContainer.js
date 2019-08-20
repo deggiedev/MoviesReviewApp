@@ -1,0 +1,30 @@
+import React from 'react'
+import MovieCard from '../Components/MovieCard'
+
+class MovieContainer extends React.Component{
+
+
+  state = {
+    searchInput: '',
+    reviewInput: ''
+  }
+
+  render(){
+    return(
+        <div>
+        <input type="text" placeholder="Search for Movie" onChange={(event) => this.setState({searchInput: event.target.value})}/>
+
+        <h2>{this.props.title}</h2>
+        {
+          this.props.movies.filter((movie) => movie.title.toLowerCase().includes(this.state.searchInput.toLowerCase()))
+          .map(movie => <MovieCard movie={movie} handleClick={() => this.props.selectMovie(movie)}/>)
+      }
+      </div>
+
+    )
+  }
+}
+
+
+
+export default MovieContainer
