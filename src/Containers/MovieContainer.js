@@ -12,7 +12,7 @@ class MovieContainer extends React.Component{
   render(){
     return(
         <div>
-        <input type="text" placeholder="Search for Movie" onChange={(event) => this.setState({searchInput: event.target.value})}/>
+        <input className='bg-light-green pa2 input-reset ba w-50 measure' type="text" placeholder="Search for Movie" onChange={(event) => this.setState({searchInput: event.target.value})}/>
 
         <h2>{this.props.title}</h2>
         {
